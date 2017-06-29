@@ -123,7 +123,7 @@ void CustomSource::reset() {
 		e.setup("montanhitas" + ofToString(i + 1) + ".png");
 		montanhitas.push_back(e);
 	}
-	for (int i = 0; i < 8; i++) {
+	for (int i = 0; i < 9; i++) {
 		uElement e;
 		e.setup("elemento" + ofToString(i + 1) + ".png");
 		elementos.push_back(e);
